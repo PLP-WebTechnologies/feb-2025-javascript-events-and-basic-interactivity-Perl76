@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Event Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🎉 JavaScript Event Playground 🎉</h1>
+
+  <section>
+    <h2>Event Handling</h2>
+    <button id="clickBtn">Click Me!</button>
+    <div id="hoverBox">Hover Over Me</div>
+    <button id="secretBtn">Try Something Secret...</button>
+  </section>
+
+  <section>
+    <h2>Interactive Elements</h2>
+    <button id="changeBtn">Change Me!</button>
+    
+    <div class="gallery">
+      <img id="galleryImg" src="https://via.placeholder.com/300x200?text=Image+1" width="300" />
+      <br />
+      <button id="nextImg">Next Image</button>
+    </div>
+
+    <div class="tabs">
+      <button class="tab" data-tab="1">Tab 1</button>
+      <button class="tab" data-tab="2">Tab 2</button>
+    </div>
+    <div id="tabContent1" class="tab-content">🌟 This is content for Tab 1.</div>
+    <div id="tabContent2" class="tab-content" style="display:none">🚀 This is content for Tab 2.</div>
+  </section>
+
+  <section>
+    <h2>Form Validation</h2>
+    <form id="signupForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Sign Up</button>
+      <div id="formFeedback"></div>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
